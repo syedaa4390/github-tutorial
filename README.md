@@ -15,6 +15,11 @@ The following are instructions on how to create your own Github account...
 3. Next, create a **username** and **password**, as well as put in your **HSTAT email**. Your username can be the same as your email.
 4. Continue your setup for the Github account.
 
+After, you will have to set up the **SSH feature** in your account. This should only be done **once**. 
+
+It is **important** to do such SSH feature *because* it automatically authorizes you to run your code and display it **efficiently**. This would pretty much speed up your process, since you would no longer have to put in your password in order to verify yourself every time. 
+
+
 In order to successfully enable this feature, you must do the following steps: 
 1. Begin the process by logging into your github account.
 2. Next, locate to the **top right hand corner**, where you’ll find your ***profile** icon*. Click on the icon, and then click **Settings** when the list of options appear. Settings should be the **second to last option**.
