@@ -51,7 +51,7 @@ Let’s create a new repo (repository)in your GitHub. This can be done through t
     * Locate to the `+` icon at the top right hand corner of Github, and click on that. Once the options appear, click on the first option that simply says *New Repository*.
     * Rename the repository to whatever is relevant, and **keep the name the same the whole time**.
     * Finalize in creating the repository by clicking *Create Repository* in green.
-
+10. End with the command `git push`.
 ---
 ## Workflow & Commands
 
