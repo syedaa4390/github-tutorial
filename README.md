@@ -40,6 +40,17 @@ Let’s create a new repo (repository)in your GitHub. This can be done through t
 2. By using the **command** `mkdir repo-name` , you will make a directory/repo, with whatever name you desire.
 3. Next, go into that exact directory by the **command** `cd repo-name`.
 4. Once that is done, type in the **command** `git init`. This command simply initializes everything in the directory, aka the repository, so that it can be ready for the version control that’ll be done in the future. *Note* : this should only be done **once**.
+5. When adding a new file into a repository, you simply do `touch README.md`. *Note* that when `touch` is being used, a new **empty file** is created. In this case, we're always going to be creating an empty file that is name **"README"**.
+6. Open up the *README* file by using the command `c9 ` followed by *README.md*, in which case the full command is `c9 README.md`.
+7. The three following `add` commands are what makes all your edits ready to be Committed.
+    * The command `git add file.ext` adds specific file(s) to the staging area. The part that says *file.ext* is what gets replaced with the actual file names.
+    * When using the command `git add .` all the files that had been changed gets added to the directory.
+    * Lastly, use `git add --all` when adding *everything* to the staging area. **Everything**  includes all changes, including any deleted files.
+8. Now, onto the committing part. When committing a file, the following command would be used : `git commit -m "specific-message"`. This command *finalizes all the changes* that would be made. The part within the quotations are is the message one would be providing. In such message, one should be descriptive towards the specific changes that were made since the last commit.
+9. Finally, you have to `push` all your changes into the cloud that's in GitHub. Though, you would need a **remote repo** to push everything to. *Note* that you don't always have to create a remote repository. When it's done once, it's good enough for the rest of the project. A remote repo can be created through the following steps : 
+    * Locate to the `+` icon at the top right hand corner of Github, and click on that. Once the options appear, click on the first option that simply says *New Repository*.
+    * Rename the repository to whatever is relevant, and **keep the name the same the whole time**.
+    * Finalize in creating the repository by clicking *Create Repository* in green.
 
 ---
 ## Workflow & Commands
