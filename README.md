@@ -4,8 +4,9 @@ _By Syeda Sabiha Afroj_
 
 ---
 ## Git vs. GitHub
+**Git** generally runs around the idea of **version control**. What this means is that it caves ***changes** made   overtime*. Changes based on various commands are able to be tracked because of Git. One thing that doesn’t exist within git is collaboration. Only one person can work on it.
 
-
+**GitHub** is a website where all your work gets *sent* to a certain **cloud** located there. A **pro** in using GitHub is the ability of **collaboration**. It allows multiple people to work on one repository and send work to each other. This **uses** ***Git***, so it can display the changes being done throughout every commit.
 
 ---
 ## Initial Setup
@@ -18,7 +19,6 @@ The following are instructions on how to create your own Github account...
 After, you will have to set up the **SSH feature** in your account. This should only be done **once**. 
 
 It is **important** to do such SSH feature *because* it automatically authorizes you to run your code and display it **efficiently**. This would pretty much speed up your process, since you would no longer have to put in your password in order to verify yourself every time. 
-
 
 In order to successfully enable this feature, you must do the following steps: 
 1. Begin the process by logging into your github account.
