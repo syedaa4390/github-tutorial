@@ -34,8 +34,12 @@ Once the next page appears, Title it cloud9. As for the key section, do the foll
 
 ---
 ## Repository Setup
-
-
+Let’s create a new repo (repository)in your GitHub. This can be done through the following commands in such order… 
+1. With the **command** `cd ~/workspace` , make sure you are in the accurate working space.
+    * `Cd` briefly changes the directory to wherever the user wants to be directed to.
+2. By using the **command** `mkdir repo-name` , you will make a directory/repo, with whatever name you desire.
+3. Next, go into that exact directory by the **command** `cd repo-name`.
+4. Once that is done, type in the **command** `git init`. This command simply initializes everything in the directory, aka the repository, so that it can be ready for the version control that’ll be done in the future. *Note* : this should only be done **once**.
 
 ---
 ## Workflow & Commands
