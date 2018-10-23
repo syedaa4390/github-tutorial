@@ -53,9 +53,17 @@ Let’s create a new repo (repository)in your GitHub. This can be done through t
     * Finalize in creating the repository by clicking *Create Repository* in green.
 10. End with the command `git push`.
 
-`Git status` is a very important command that should always be used throughout every the changes being made. What `git status` does is simply track the types of changes that would take place, as well as display what type of files are ready to be committed, and if the branch is ready to be committed or not.
-
-
+`Git status` is a very important command that should always be used throughout every changes being made. What `git status` does is simply track the types of changes that would take place, as well as display what type of files are ready to be committed, and if the branch is ready to be committed or not.
 
 ---
 ## Rolling Back Changes
+Start off by entering the command `git status`
+* In order to **undo** an ***edit***, simply type in the command `git checkout -- filename`. When one doesn't make the proper/desired edit, they can use that command, as if they're going back.
+* When one had to undo an `'add`, the commad `git reset HEAD filename` would be useful. Through this command, one can **reset** the added changes.
+* As you'd want to undo a `commit`... 
+    * you can use the command `git reset --soft HEAD~1`, when you want to undo **only the commit**.
+    * you can use the `git reset HEAD~1` command when you want to undo the **commit** *and* the **edit**.
+    * you can use the command `git reset --hard HEAD~1` when undoing changes to the **commit, add**, *and* **edit**.
+
+
+
