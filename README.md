@@ -33,7 +33,7 @@ Once the next page appears, Title it cloud9. As for the key section, do the foll
 6. Click **Add SSH key**.
 
 ---
-## Repository Setup
+## Repository Setup + Workflow & Commands
 Let’s create a new repo (repository)in your GitHub. This can be done through the following commands in such order… 
 1. With the **command** `cd ~/workspace` , make sure you are in the accurate working space.
     * `Cd` briefly changes the directory to wherever the user wants to be directed to.
@@ -52,8 +52,8 @@ Let’s create a new repo (repository)in your GitHub. This can be done through t
     * Rename the repository to whatever is relevant, and **keep the name the same the whole time**.
     * Finalize in creating the repository by clicking *Create Repository* in green.
 10. End with the command `git push`.
----
-## Workflow & Commands
+
+`Git status` is a very important command that should always be used throughout every the changes being made. What `git status` does is simply track the types of changes that would take place, as well as display what type of files are ready to be committed, and if the branch is ready to be committed or not.
 
 
 
