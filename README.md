@@ -22,7 +22,7 @@ It is **important** to do such SSH feature *because* it automatically authorizes
 
 In order to successfully enable this feature, you must do the following steps: 
 1. Begin the process by logging into your github account.
-2. Next, locate to the **top right hand corner**, where you’ll find your **_profile_** icon*. Click on the icon, and then click **Settings** when the list of options appear. Settings should be the **second to last option**.
+2. Next, locate to the **top right hand corner**, where you’ll find your **_profile_** icon. Click on the icon, and then click **Settings** when the list of options appear. Settings should be the **second to last option**.
 3. Once you have opened the Settings page, you will see an option that says **SSH and GPG Keys** at the **left sidebar** of the screen. Click on that.
 4. When that is done, locate the *green* option that says **New SSH Key** at the **top right hand corner** and click on that.
 Once the next page appears, Title it cloud9. As for the key section, do the following:
