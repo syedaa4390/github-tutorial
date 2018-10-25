@@ -38,7 +38,7 @@ Let’s create a new repo (repository)in your GitHub. This can be done through t
 1. With the **command** `cd ~/workspace` , make sure you are in the accurate working space.
     * `Cd` briefly changes the directory to wherever the user wants to be directed to.
 2. By using the **command** `mkdir repo-name` , you will make a directory/repo, with whatever name you desire.
-3. Next, go into that exact directory by the **command** `cd repo-name`.
+3. Next, go into that exact directory by the **command** `cd repo-name`. Dashes (`-`) within names are important to use when there woul usually be a space between the two words. This is just proper CS syntax.
 4. Once that is done, type in the **command** `git init`. This command simply initializes everything in the directory, aka the repository, so that it can be ready for the version control that’ll be done in the future. *Note* : this should only be done **once**.
 5. When adding a new file into a repository, you simply do `touch README.md`. *Note* that when `touch` is being used, a new **empty file** is created. In this case, we're always going to be creating an empty file that is name **"README"**.
 6. Open up the *README* file by using the command `c9 ` followed by *README.md*, in which case the full command is `c9 README.md`.
@@ -64,6 +64,3 @@ Start off by entering the command `git status`
     * you can use the command `git reset --soft HEAD~1`, when you want to undo **only the commit**.
     * you can use the `git reset HEAD~1` command when you want to undo the **commit** *and* the **edit**.
     * you can use the command `git reset --hard HEAD~1` when undoing changes to the **commit, add**, *and* **edit**.
-
-
-
