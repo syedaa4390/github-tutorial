@@ -77,3 +77,9 @@ In order to clone something from Github, the following steps must be done...
 4. Go back to c9 and locate to the _bash terminal_. Make sure you're in your **workspace**.
 5. Once that is done, type in `git clone URL`. _Note_ that that "URL" should be the link you had just copied as the SSH link in Github. Just simply paste that link as the URL.
 6. After, `CD` INTO THIS DIRECTORY. Never forget to do that! And no, you're done cloning!
+
+**Forking** : Forking is something that allows you to clone someone else's repo and make it your own. You can do this when something interests you in some way, and you want to change things up. This way, it's like adding your own personal touches to it.  
+Such forking can be done through the following simple steps :
+1. Locate yourself to a repo you would like to change up.
+2. At the top rihght hand side of the screen, you will see an option in grey that says "Fork". Click on that.
+3. You will then find a section that says "Clone or download", in which case, you just follow the same steps as cloning (steps 2-6).
