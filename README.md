@@ -64,3 +64,16 @@ Start off by entering the command `git status`
     * you can use the command `git reset --soft HEAD~1`, when you want to undo **only the commit**.
     * you can use the `git reset HEAD~1` command when you want to undo the **commit** *and* the **edit**.
     * you can use the command `git reset --hard HEAD~1` when undoing changes to the **commit, add**, *and* **edit**.
+
+---
+## Collaboration
+**Cloning** and **forking** are two important concepts that are involved throughout the collaboration process of Github.
+
+**Cloning** : When someone clones something, it simply means that they're making a copy of it.   
+In order to clone something from Github, the following steps must be done...
+1. Go to the certain project on [Github.com](Github.com) that you would like clone.
+2. Towards the _right side_ of the screen, you will see an option in green that says "**Clone or download**". Click on that.
+3. Copy the link that appears. **BEFORE** you copy though, MAKE SURE THE LINK IS IN **SSH** FORM! This can be found a bit above the link, where it'll say "Clone with SSH". But let's say it says HTTPS. Simply just click on the part in blue that'd make you change to SSH.
+4. Go back to [c9](c9.io) and locate to the _bash terminal_. Make sure you're in your **workspace**.
+5. Once that is done, type in `git clone URL`. _Note_ that that "URL" should be the link you had just copied as the SSH link in Github. Just simply paste that link as the URL.
+6. After, `CD` INTO THIS DIRECTORY. Never forget to do that! And no, you're done cloning!
